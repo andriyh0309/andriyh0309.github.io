@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<title>SMARTSYSTEMS</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/fcba6732fd.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="libs/bootstrap-3.3.7/less/bootstrap.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/media.css" />
+
+
+</head>
+
+<body>
+  
+  
+<!--------------------------------------------------HEADER------------------------------------------------------>
+   
+   
+                                   
+    <header >       
+       <div class="container containerForHeader" id="menu" >
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 mainDivMenu">
+                         
+                          <!-----------------BUTTON MENU------------>
+                          
+                       <div class="button-menu" id="button-menu">
+                            <i class="fa fa-bars  fa-2x" aria-hidden="true" id="hamb"></i>
+                        </div>   
+                        <div class=" menu" id="menuLinks">
+                        <ul class="firstChild">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Store</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        
+                        </div>
+                        
+                        <!-----------------EMD BUTTON MENU------------>
+                        
+                        
+                        <!---------------ICONS------------------------>
+                        
+                        <div class="search">
+                            <a href="#"  data-toggle="modal" data-target="#myModal" id="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                        
+                        <div class="soc">
+                            <a href="#"><i class="fa fa-facebook  fa-2x"  aria-hidden="true" ></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true" ></i></a>
+                            <a href="#"><i class="fa fa-google-plus  fa-2x"  aria-hidden="true"></i></a>
+                        </div>
+                        
+                        <div class="login">
+                            <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm" ><i class="fa fa-user fa-2x " aria-hidden="true"></i></a>
+                        </div>
+                        
+                        
+                        <!---------------END ICONS------------------------>
+                        
+                        
+                                        <!--Modal window search-->
+                                                
+                        <div class="modal fade" id="myModal">
+                          <div class="modal-dialog">
+                            <div class="modal-content-my">
+                             <div class="modal-body">
+                                <form action="mailto:wertyq21@ukr.net" enctype="text/plain" id="dlForm">
+                                    <input id="input" type="text" class="form-control" placeholder="Search"/>
+                                </form>
+                              </div>
+                              <div class="modal-footer-my">
+                                  <button type="submit"  class="btn btn-danger clearButton" id="clear">Clear</button>
+                                  <button type="submit" class="btn-lg btn-danger ">Search</button>
+                                  <button type="submit" class="btn btn-danger closeA" data-dismiss="modal">Reset</button>       
+                              </div>
+                            </div>  
+                          </div>
+                        </div>
+                                               
+                                         <!--End Modal window search-->
+                                         
+                                         <!--Modal window login-->
+                                         
+                        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                             
+                              <div class="modal-header">
+                                <h4 class="modal-title" id="myModalLabel">Ask a Question</h4>
+                              </div>
+                              
+                              
+                              <div class="modal-body modalForms">
+                                <form action="mailto:wertyq21@ukr.net" enctype="text/plain" id="yname">
+                                    <input id="input" type="text" name="yourName" class="form-control required" placeholder="Your name"/>
+                                </form>
+                                <form action="mailto:wertyq21@ukr.net" enctype="text/plain" id="dlForm">
+                                    <input id="input" type="text" name="email" class="form-control" placeholder="Your a-mail"/>
+                                </form> 
+                                <form action="mailto:wertyq21@ukr.net" enctype="text/plain" id="dlForm">
+                                    <p ><textarea  name="text" placeholder="Your question"></textarea></p>
+                                </form>
+                              </div>
+                              
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger submitBtn" data-dismiss="modal">SABMIT</button>
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                                         
+                                         
+                                         <!--End Modal window login-->
+                                         
+                                         
+                                         
+                                         
+                </div> 
+                    </div>
+                </div>
+            </div>
+         
+       </div>                          
+    </header>
+    
+    
+    
+<!--------------------------------------------------END HEADER------------------------------------------------------>
+
+
+
+
+
+
+
+
+<!---------------------------------------------------SECTION-------------------------------------------------------->
+    <section>
+       <div class="container containerForSection">
+          <div class="row">
+               <div class="col-md-10 col-md-offset-1 mainDivSection" >
+                   <div class="row">
+                      <div class="col-md-6">
+                          <div class="row">
+                             <!-------------LEFT MENU------->
+                              <div class="col-md-6 leftMenu col-sm-6 " >
+                                 <ul class="nav nav-pills nav-stacked">
+                                      <li><a href="#"><i class="fa fa-home fa-2x" aria-hidden="true"></i><span>Home</span></a></li>
+                                      <li><a href="#"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i><span>Store</span></a></li>
+                                      <li><a href="#"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i><span>Blog</span></a></li>
+                                      <li><a href="#"><i class="fa fa-users fa-2x" aria-hidden="true"></i><span>Community</span></a></li>
+                                      <li><a href="#"><i class="fa fa-trophy fa-2x" aria-hidden="true"></i><span>Contest</span></a></li>
+                                      <li><a href="#"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i><span>About</span></a></li>
+                                      <li><a href="#"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><span>Contact</span></a></li>
+                                     
+                                 </ul>
+                                 <!----CONTACT DETAILS--->
+                                 <div class="col-md-12 contactDetails" >
+                                     <ul>
+                                         <li ><i class="fa fa-phone" aria-hidden="true" style="position:absolute"></i><p>(912) 555-1234 <br> (912) 555-5678</p></li>
+                                         <li><i class="fa fa-map-marker" aria-hidden="true" style="position:absolute"></i><p>1600 Pennsylvania<br> Ave NW, Washington <br>DC 20500, USA</p></li>
+                                         <li> <i class="fa  fa-envelope" aria-hidden="true" style="position:absolute"></i><p>hello@website.com<br>office@website.com</p></li>
+                                     </ul>
+
+                                 </div>
+                              </div>
+                              
+                
+                              <!-------------END LEFT MENU------->
+                              
+                              <!-------------SUBMENU------->
+                              
+                              <div class="col-md-6 col-sm-6 submenu">
+                                  <div class="dropdown ">
+                                        <a data-toggle="dropdown" href="#" class="mainLink">Tech<i class="fa fa-chevron-circle-right " aria-hidden="true"></i></a>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                            <li><a href="#">Software & Apps</a></li>
+                                            <li><a href="#">Gadgetss</a></li>
+                                            <li><a href="#">Mobile</a></li> 
+                                        </ul>
+                                   </div>
+
+                                      <div class="dropdown">
+                                        <a data-toggle="dropdown" href="#" class="mainLink">Entertainment<i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a> 
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                            <li><a href="#">Film</a></li>
+                                            <li><a href="#">Gaming</a></li>
+                                            <li><a href="#">Music</a></li>
+                                            <li><a href="#">Sport</a></li>
+                                      </ul>
+                                   </div>
+
+                                   <div class="dropdown">
+                                        <a data-toggle="dropdown" href="#" class="mainLink">Business<i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>               
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                            <li><a href="#">Jobs</a></li>
+                                            <li><a href="#">Marketing</a></li>
+                                            <li><a href="#">media</a></li> 
+                                        </ul>
+                                   </div>
+                                   <div class="dropdown" id="withoutBorder">
+                                        <a data-toggle="dropdown" href="#" class="mainLink">Lifestyle<i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>  
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Health & Fitmess</a></li>
+                                            <li><a href="#">Travel & Leisure</a></li> 
+                                        </ul>
+                                   </div>                                      
+                              </div>
+                          
+                           <!-----------END SUBMENU------->
+                      </div> 
+                    </div>  
+                      <div class="col-md-6">
+                          <div class="row">
+            
+                              <div class="col-md-12 divForsocial">
+                                 
+                                  <div class="row">
+                                     
+                                     <!-----SOCIAL MENU------->
+                                     
+                                     
+                                      <div class="col-md-6 socialMenu">
+                                        <ul  class="socM">
+                                            <li><a href="#"><button class="btn btn-default"><i class="fa fa-facebook" aria-hidden="true"></i></button>Facebook</a></li>
+                                            <li><a href="#"><button class="btn btn-default"><i class="fa fa-twitter" aria-hidden="true"></i></button>Twitter</a></li>
+                                            <li><a href="#"><button class="btn btn-default"><i class="fa fa-google-plus" aria-hidden="true"></i></button>Google+</a></li>
+                                            <li><a href="#"><button class="btn btn-default"><i class="fa  fa-rss" aria-hidden="true"></i></button>Rss Feeds</a></li>
+                                            <li><a href="#"><button class="btn btn-default"><i class="fa fa-pinterest-p" aria-hidden="true"></i></button>Pinterest</a></li>
+                                        </ul>
+                                      </div>
+                                  
+                                     
+                                       <!-----END SOCIAL MENU------->
+                                      
+                                      
+                                      <!-----WIDGETS------->
+                                      <div class="col-md-6 widgets">
+                                          <div class="row">                                             
+                                              <div class="col-md-12 col-sm-6 col-xs-6 widgetFB">
+                                                <a href="#"><img  src="img/widgetF.jpg" alt="widgetF" class="img-responsive"></a>
+                                              </div>
+                                              
+                                              <div class="col-md-12 col-sm-6 col-xs-6 widgetTW">
+                                                <a href="#"><img src="img/widgetT.jpg" alt="widgetT" class="img-responsive width"></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <!-----END WIDGETS------->
+                                  </div>
+                              </div>
+                                     <!----------SING IN-------------->
+                              <div class="col-md-12 signIn">
+                                 <h3>Sing in</h3>
+                                 <p class="fontSize">Just select your favorite social network to get started</p>
+                                 <ul>
+                                    <li class="position"><a href="#"><button style="background-color:#4d6baa"><i class="fa fa-facebook" aria-hidden="true" ></i></button></a></li>
+                                    <li><a href="#"><button style="background-color:#4fc6f8"><i class="fa fa-twitter" aria-hidden="true" ></i></button></a></li>
+                                    <li><a href="#"><button style="background-color:#ea6060"><i class="fa fa-google-plus" aria-hidden="true" ></i></button></a></li>
+                                    <li><a href="#"><button style="background-color:#238cc8"><i class="fa  fa-sign-in" aria-hidden="true" ></i></button></a></li>
+                                 </ul>
+                             </div>
+                                       <!----------END SING IN-------------->
+                                       
+                                       
+                                       
+                                       <!----------Join the Newsletter------>
+                                       
+                                       
+                              <div class="col-md-12 newsletter">
+                                <h3>Join the Newsletter</h3>
+                                <p class="fontSize">Sign up for our personalized daily newsletter</p>   
+                                       
+                                 <form role="form" class="newsletterForm">                                       
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email addres">
+                                                <button type="submit" class="btn btn-danger">SIGN UP</button>
+                                            </div>
+                                  </form>
+                              </div>
+                                       
+                                       
+                                        <!----------Join the Newsletter------>
+                      </div>
+                   </div>
+               </div>
+          </div>
+       </div>
+</section>
+
+<!---------------------------------------------------END SECTION-------------------------------------------------------->
+  <footer>
+      <div class="container containerForFooter" >
+          <div class="row">
+               <div class="col-md-10 col-md-offset-1 " >
+                   <div class="row">
+                      <div class="col-md-12 divForCarousel">
+
+                              <div id="carousel-example-generic" class=" carousel slide" data-ride="carousel" data-interval="5000">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="img/cat.jpg" alt="...">
+                              <div class="carousel-caption">
+
+                              </div>
+                            </div>
+                             <div class="item ">
+                              <img src="img/banner.jpg" alt="..." >
+                              <div class="carousel-caption">
+
+                              </div>
+                            </div>
+                            <div class="item ">
+                              <img src="img/oldtimer.jpg" alt="...">
+                              <div class="carousel-caption">
+
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Controls -->
+                           <button  class="btnForCarouselL left carousel-control hidden-xs" href="#carousel-example-generic" data-slide="prev" ><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                           <button  class="btnForCarouselR right carousel-control hidden-xs" href="#carousel-example-generic" data-slide="next" ><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+
+
+
+                        </div>
+                               
+                      
+                   </div>
+               </div>
+          </div>
+       </div>                      
+  </footer> 
+
+    <script src="js/main.js"></script>                      
+	<script src="libs/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

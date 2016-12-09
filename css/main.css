@@ -1,0 +1,332 @@
+body {
+    border: 0;
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+    background-color:#486378;
+}
+a{
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+    
+}
+a:focus{
+    text-decoration: none;
+    outline: none;
+}
+button:focus{
+    outline: none;
+    border-color: transparent;
+}
+input:focus{
+    outline-color: #33cccc;
+}
+textarea{
+    outline-color: #33cccc;
+}
+/*--------------------------------------------------header---------------------------------------------------*/
+.containerForHeader{
+    padding:0 1%;
+    margin-top: 24px;
+}
+.mainDivMenu{
+    padding:0; 
+    height:60px; 
+    background-color:white;
+}
+.button-menu{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #56ccc8;
+    position: absolute;
+}
+.button-menu:hover{
+  cursor: pointer;
+}
+.button-menu i{
+    color: white;
+    margin: 16px;
+}
+.menu {
+	display:  none;
+    position: absolute;
+    left: 60px; 
+}
+.menu li{
+    float: left;
+} 
+.menu a{
+	color: black;
+    margin-left: 52px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 17px;
+}
+
+.menu a:hover{
+	color:#56ccc8;
+}
+.search {
+	position: absolute;
+    font-size: 11px;
+    right: 257px;
+    top: 18px
+}
+.search a{
+    color: #99cccc;
+   
+}
+.search a:hover{
+    color:#56ccc8;
+}
+.soc{
+    position: absolute;
+    right: 67px;
+    font-size: 11px;
+    height: 60px;
+    border-left: 1px solid #99cccc;
+    border-right: 1px solid #99cccc;
+    padding: 18px 22px
+}
+
+.soc i{
+    margin:0 7px;
+} 
+.soc a{
+    color: #99cccc;
+}
+.soc a:hover{
+    color:#56ccc8;
+}
+.login {
+	position: absolute;
+    right: 29px;
+    top: 17px;
+    font-size: 11px;
+}
+.login a{
+    color: #99cccc;
+}
+.login a:hover{
+    color:#56ccc8;
+}
+.clearButton{
+    margin-left: 34%;
+}
+textarea{
+    width: 269px;
+    height: 106px;
+    resize: none;
+}
+.submitBtn{
+    left: 2px;
+}
+
+.modalForms input{
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.modal-content-my{
+    margin-top: 30%;
+}
+/*----------------------------------------------END header---------------------------------------------------*/
+
+
+
+/*-----------------------------------------------SECTION-----------------------------------------------------*/
+.containerForSection{
+   padding:0 1%; 
+    margin-top: 16px;
+}
+
+.leftMenu{
+    padding:0;
+    font-size: 16px;
+    
+}
+
+.leftMenu i{
+    color: #c5cdd1;
+} 
+
+.leftMenu span{
+    color: black;
+    padding-left: 26px;
+}
+.submenu {
+	padding-left: 0;
+}
+.hover:hover{
+    background-color: #263a54;
+}
+.mainLink{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-top: 20px;
+	padding-left: 32px;
+    font-size: 16px;
+    color: #56ccc8;
+    display: block;
+    z-index: 2;
+}
+.submenu i{
+    position: absolute;
+    top: 23px;
+	right: 32px;
+    color: #56ccc8;
+    z-index: 1;  
+}
+#withoutBorder{
+    border: none;
+}
+.socialMenu {
+    background-color: white;
+}
+.socialMenu i{
+    color: white;
+}
+.socialMenu a{
+    color: black;
+}
+
+.socialMenu li{
+    margin-top: 26px;
+    margin-bottom: 25px;
+}
+
+.socialMenu button{
+    margin-right: 23px;
+    background: #c5cdd1; 
+    width: 32px; 
+    height: 32px;
+    border-radius: 30px;
+    border-color: transparent; 
+}
+
+.widgetFB {
+    height: 157px;
+    
+}
+.widgetFB img{
+    height: 100%;
+    
+}
+.widgetTW {
+    height: 157px;
+}
+.widgetTW img{
+    height: 100%;
+}
+
+
+
+
+.signIn{
+    background-color: white;
+    margin-top: 15px;
+    text-align: center;
+    height: 165px;
+}
+
+.signIn  button{
+    margin-right: 23px;
+    width: 32px; 
+    height: 32px;
+    border-radius: 30px;
+    border-color: transparent; 
+}
+
+.signIn  ul li{
+    float: left ;
+}
+.signIn i{
+   color: white;
+}
+.signIn  ul {
+    margin-left: 28%;
+    margin-top: 32px;
+}
+
+
+
+.newsletter input{
+    width: 70%;
+    display: inline;
+    
+}
+
+
+.newsletter{
+    background-color: white;
+    margin-top: 15px;
+    text-align: center;
+    height: 165px;
+}
+
+
+.contactDetails{
+    background-color: #cccccc;
+    height: 248px;
+    color: white;
+}
+.contactDetails p{
+    padding-left: 35px;
+    font-size: 14px;
+}
+.contactDetails i{
+    color: white;
+    padding-top: 4px;
+}
+.contactDetails li{
+    padding: 19px 0 5px 18px;
+    
+}
+.fontSize{
+    margin-top: 14px;
+    font-size: small;
+    color: #666666;
+}
+.newsletterForm{
+    margin-top: 30px;
+}
+.divForsocial{
+    padding-right: 0;
+}
+/*-----------------------------------------------END SECTION-----------------------------------------------------*/
+.containerForFooter {
+	padding:0 1%; 
+    margin-top: 60px;
+    margin-bottom: 52px;
+}
+.divForCarousel{
+    padding: 0;
+    height: 455px;
+}
+.btnForCarouselL{
+    background-color: white;
+    border-radius:0 10px 10px 0 ;
+    border-color: transparent;
+}
+.btnForCarouselL:hover{
+   opacity: 0.4;
+   background-color: #56ccc8;
+}
+
+.btnForCarouselR{
+    background-color: white;
+    border-radius: 10px 0 0 10px  ;
+    border-color: transparent;
+    
+}
+
+.btnForCarouselR:hover{
+     opacity: 0.4;
+    background-color: #56ccc8;
+}

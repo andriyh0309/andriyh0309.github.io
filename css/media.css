@@ -1,0 +1,197 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .menu a{
+    margin-left: 25px ;
+    }
+ 
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+     .submenu {
+    padding-right: 0;
+}
+    .contactDetails {
+    width: 100%;
+}
+    .socM {
+    padding: 27px 0 107px 10px;
+    }
+     .socM li{
+        float: left;
+    }
+   .socialMenu {
+    margin-top: 20px;
+    margin-bottom: 20px
+    }
+
+.socialMenu a:hover > button {
+    background-color: #56ccc8;
+    border-color: transparent;
+}
+.socialMenu button {
+    margin-right: 12px;
+    margin-left: 26px;;
+    width: 42px;
+    height: 42px
+    }
+    .widgetFB {
+    padding-left: 133px;
+    }
+    .widgetTW img {
+    padding-left: 13px;
+}
+    .signIn {
+    padding-top: 1px;
+    }
+    .newsletter {
+    padding-top: 1px;
+    }
+    .signIn ul {
+    margin-left: 38%;
+    }
+    .containerForFooter {
+     margin-bottom: 0;
+     }
+    .submenu {
+    margin-top: -1px;
+}
+    .divForsocial {
+    padding-right: 15px;
+}
+    
+}    
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .button-menu {
+    margin-left: 11px;
+    }
+   .menu li{
+       float: none;
+       border-bottom: 1px solid #99cccc;
+       background-color: white;
+    } 
+    .firstChild:first-child{
+       border-top: 1px solid #99cccc;
+       
+   }
+   .menu{
+    left: -18px;
+    top: 59px;
+    width: 107%;
+    z-index: 9;
+    }
+    .menu a{
+        display: block;
+        margin-top: 0; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+     .menu a:hover{
+       background-color: #56ccc8;
+         color:black;
+    }
+      .search {
+        right: 230px;       
+    }
+    .soc {
+    padding: 18px 17px;
+   }
+    .clearButton {
+    margin-left: 22%;
+}
+      textarea{ 
+    width: 336px;
+    height: 106px;
+    }
+    .contactDetails {
+    position: absolute;
+    top: 2253px;
+    margin-bottom: 50px;
+}
+    .submenu {
+    margin-top: 15px;
+}
+    .socM li {
+     float: none;
+}
+    .socM {
+    padding: 10px 0 10px 10px;
+}
+   
+    .contactDetails {
+    margin-top: -17px;
+    position: absolute;
+    top: 2331px;
+    margin-bottom: 50px;
+}
+    .widgetFB {
+    padding-left: 25px;
+}
+    .signIn ul {
+    margin-left: 27%;
+}
+    .newsletter {
+    padding-top: 1px;
+    margin-bottom: -40px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    textarea{ 
+    width: 336px;
+    height: 106px;
+    }
+   
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .clearButton {
+    margin-left: 15%;
+}
+ textarea {
+    width: 282px;
+    height: 106px;
+    }
+    .widgets {
+    margin-left: -45px;
+}
+    
+  .signIn ul {
+    margin-left: 19%;
+}
+    
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 321px) {
+   
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+  
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+ .width {
+    width: 99%;
+    height: 157px;
+} 
+    
+
+    
+}
